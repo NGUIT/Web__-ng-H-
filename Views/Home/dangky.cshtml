@@ -4,5 +4,52 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>dangky</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Đăng nhập</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label for="">Vui lòng nhập email</label>
+                        <input id="txtCD" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mật khẩu</label>
+                        <input id="txtCR" type="password" class="form-control" />
+                    </div>
+                    <button id="btnDangKy" class="btn btn-danger">Đăng ký</button>
+                    <button id="btnDangNhap" class="btn btn-danger">Đăng nhập</button>
+                </div>
+                <div id="footerTinh-DT-CV" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <input id="txtUsername"
+                               class="form-control"
+                               type="text"
+                               value="Cybersoft" />
+                    </div>
+                    <div class="form-group">
+                        <input id="txtPassword" class="form-control" type="text" />
+                    </div>
+                    <button id="btnLogin" class="btn btn-success">Login</button>
+                </div>
+                <div id="footerLogin" class="card-footer text-muted"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
